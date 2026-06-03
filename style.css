@@ -583,3 +583,21 @@ header.scrolled{
 
     box-shadow:0 0 10px rgba(245,197,66,0.3);
 }
+
+
+
+
+@media (max-width: 768px) {
+    .features, .library-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 2.2rem;
+    }
+}
