@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GD Practice - LeaderForge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🔥 LeaderForge</h1>
+    <p class="tagline">Forge The Leader Within You</p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gd.html">GD Practice</a>
+        <a href="interview.html">Interview Prep</a>
+        <a href="library.html">Library</a>
+        <a href="contact.html">Contact</a>
+        <a href="challenge.html">Challenge</a>
+    </nav>
+</header>
+
+<section class="gd-section">
+
+    <h2>🧠 Group Discussion Practice</h2>
+   <button onclick="randomTopic()" class="random-btn">
+    🎲 Give Me A Random Topic
+</button>
+
+<p id="random-result"></p>
+
+    <div class="gd-card" onclick="toggleTopic('topic1')">
+        <h3>
+        <span class="arrow">▶</span>
+         Personality vs Academic Excellence
+        </h3>
+        <div id="topic1" class="gd-content">
+            <p><strong>FOR Personality:</strong></p>
+            <ul>
+                <li>Values guide knowledge.</li>
+                <li>Good character builds trust.</li>
+            </ul>
+
+            <p><strong>FOR Academics:</strong></p>
+            <ul>
+                <li>Knowledge creates opportunities.</li>
+                <li>Strong academics build expertise.</li>
+            </ul>
+
+            <p><strong>Conclusion:</strong> Both are important, but personality determines how knowledge is used.</p>
+        </div>
+    </div>
+
+    <div class="gd-card" onclick="toggleTopic('topic2')">
+        <h3><span class="arrow">▶</span>Discipline Through Fear or Freedom</h3>
+        <div id="topic2" class="gd-content">
+            <p>Fear may create short-term discipline.</p>
+            <p>Freedom encourages self-discipline and responsibility.</p>
+        </div>
+    </div>
+
+    <div class="gd-card" onclick="toggleTopic('topic3')">
+        <h3><span class="arrow">▶</span>Democratic vs Authoritarian Leadership</h3>
+        <div id="topic3" class="gd-content">
+            <p>Democratic leadership encourages participation.</p>
+            <p>Authoritarian leadership allows faster decisions.</p>
+        </div>
+    </div>
+
+    <div class="gd-card" onclick="toggleTopic('topic4')">
+        <h3><span class="arrow">▶</span>Character Building vs Academic Excellence</h3>
+        <div id="topic4" class="gd-content">
+            <p>Character shapes behavior.</p>
+            <p>Academics shape knowledge.</p>
+        </div>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

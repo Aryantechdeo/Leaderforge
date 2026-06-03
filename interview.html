@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Prep - LeaderForge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🔥 LeaderForge</h1>
+    <p class="tagline">Forge The Leader Within You</p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gd.html">GD Practice</a>
+        <a href="interview.html">Interview Prep</a>
+        <a href="library.html">Library</a>
+        <a href="contact.html">Contact</a>
+        <a href="challenge.html">Challenge</a>
+    </nav>
+</header>
+
+<section class="interview-section">
+
+    <h2>🎤 Interview Simulator</h2>
+
+    <p>
+        Practice real leadership interview questions and improve your responses.
+    </p>
+
+    <button onclick="randomQuestion()" class="random-btn">
+        Generate Interview Question
+    </button>
+
+    <div id="question-box">
+        Click the button above to begin.
+    </div>
+    <textarea id="answer-box"
+     placeholder="Type your answer here..."></textarea>
+
+     <button onclick="submitAnswer()" class="random-btn">
+         Submit Answer
+     </button>
+
+     <div id="feedback-box"></div>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
